@@ -1,0 +1,138 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffcb05;
+  text-shadow: 1px 1px 3px #000;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #ffcb05;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+#navBotones {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#navBotones button {
+  margin: 0 5px;
+  background-color: #3b4cca;
+  color: white;
+}
+
+#navBotones .active {
+  background-color: #ffcb05;
+  color: #000;
+  font-weight: bold;
+}
+
+#contenedorListados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#listadoPokemons,
+#favoritosDiv,
+#capturadosDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.pokemon-card {
+  background-color: #2a2a40;
+  border: 2px solid #ffcb05;
+  border-radius: 12px;
+  padding: 15px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.pokemon-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #ffcb05;
+  text-shadow: 1px 1px 2px black;
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.btn-fav {
+  background-color: #e53935;
+  color: white;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.btn-capturar {
+  background-color: #43a047;
+  color: white;
+  width: 100%;
+}
+
+.btn-eliminar {
+  background-color: #757575;
+  color: white;
+  width: 100%;
+}
+
+#resultado {
+  margin-top: 20px;
+  background-color: #2a2a40;
+  border: 2px solid #ffcb05;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+#resultado img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+#cargarMasBtn {
+  margin-top: 20px;
+  background-color: #3b4cca;
+  color: white;
+}
+
+p {
+  margin: 5px 0;
+}
